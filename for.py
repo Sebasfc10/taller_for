@@ -132,6 +132,7 @@ for x in z:
     for a in y:
         peso = input('ingresa el peso:')
         suma = suma + peso
+        
     if suma / 10 == w:
         print(f'la persona {x}, se mantiene en el peso')
     else:
