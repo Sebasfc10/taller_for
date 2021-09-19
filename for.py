@@ -81,5 +81,17 @@ while x <= trb:
     print(f'el salario del trabajador {x} es :${salario}')
     x = x + 1
 
+"""
+Calcular el promedio de edades de hombres, mujeres y de todo un grupo
+de alumnos.
+"""
 
+a = int(input('ingresa el numero de alumnos: '))
+x = 1
+s = 0
+while x <= a:
+    e = int(input('ingresa tu edad: '))
+    s = s + e
+    x = x + 1
+print(f'el promedio de edades de todo el salon es de : {s/x}')
     
