@@ -94,4 +94,19 @@ while x <= a:
     s = s + e
     x = x + 1
 print(f'el promedio de edades de todo el salon es de : {s/x}')
+
+"""
+Encontrar el menor valor de un conjunto de n números dados
+"""
     
+n = int(input('ingresa el total de numeros a calcular: '))
+x = 1
+while x  <= n:
+    m = int(input('escribe un numero: '))
+    if x == 1:
+        nm = m
+    else:
+        if m < nm:
+            nm = m
+    x = x + 1
+    print(f'el numero menor es: {nm}')
