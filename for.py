@@ -163,3 +163,11 @@ res == 'si' or res == 'SI'
 print(f'el total a pagar por la compra es  ${total}')
     
     
+"""
+. Un teatro otorga descuentos según la edad del cliente, determinar la
+cantidad del dinero que el teatro deja de percibir por cada ua de las
+categorias. Tomar en cuenta que los niños menores de 5 años no pueden
+entrar al teatro y que existe un precio único en los asientos. Los descuentos
+se hacen tomando en cuenta el siguiente cuadro:
+"""
+
