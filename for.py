@@ -61,5 +61,25 @@ if animal == 'chimpance':
         p3 = p3 + 1
     print(f'su promedio es: {(p1/40)*100}')
 
-        
+"""
+Una empresa se requiere calcular el salario semanal de cada uno de los n
+obreros que laboran en ella. El salario se obtiene de la siguiente forma:
+a. Si el obrero trabaja 40 horas o menos se le paga $20 por hora
+b. Si trabaja mas de 40 horas se le paga $20 por cada una de
+lasprimeras 40 horas y $25 por cada hora extra.
+"""
+
+trb = int(input('ingrese el numero de trabajadores: '))
+x = 1
+while x <= trb:
+    h = float(input('escribe el numero de horas: '))
+    if h <= 40:
+        salario= h * 20
+    else:
+        he = h - 40
+        salario = 40 * 20 + (he * 25)
+    print(f'el salario del trabajador {x} es :${salario}')
+    x = x + 1
+
+
     
